@@ -1,0 +1,25 @@
+header {
+  /* position: relative; */
+
+  background-color: #8d48f1;
+
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+    color: red;
+}
+#header-text {
+  font-size: 30px;
+  color: white;
+}
+/* header span{
+    display: inline-block;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+} */
+
+#span {
+  font-size: 33px;
+}
