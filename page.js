@@ -22,3 +22,4 @@ function animateHeader() {
 }
 
 setInterval(animateHeader, 2500);
+

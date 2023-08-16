@@ -1,3 +1,7 @@
+body{
+    background-color:#FAF8FB;
+}
+
 header {
   /* position: relative; */
 
@@ -6,20 +10,54 @@ header {
   display: flex;
   justify-content: space-between;
 }
-h1 {
-    color: red;
-}
 #header-text {
   font-size: 30px;
   color: white;
 }
-/* header span{
-    display: inline-block;
-    position: absolute;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-} */
-
 #span {
   font-size: 33px;
+}
+/* slider */
+
+.slider-heder{
+    display: flex;
+color: #8d48f1;
+margin-left: 4%;
+}
+.slider-heder p {
+font-size: 25px;
+font-weight: bold;
+margin-top: 2vh;
+}
+.slider-heder img {
+    width: 50px;
+    height: 50px;
+}
+.slider-container {
+    display: flex;
+    background-color: #8d48f1;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.slider-card {
+    flex: 0 0 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+}
+
+.span-slider{
+    font-size: 15px;
+font-weight:500;
+
+}
+.slider-card:hover {
+    transform:scale(1.06);
+    background-color: yellow;
+    color: black;
 }
