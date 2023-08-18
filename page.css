@@ -61,3 +61,52 @@ font-weight:500;
     background-color: yellow;
     color: black;
 }
+/* section3 */
+.section3{
+    display:flex ;
+    color: #8d48f1;
+}
+.titleSection3{
+    display: flex;
+ 
+}
+
+.titleSection3 p{
+    display: flex;
+    color: #8d48f1;
+    font-weight: bold;
+    font-size: 24px;
+}
+.titleSection3 img{
+height: 7vh;
+padding-top: 2vh;
+padding-right: 2vw;
+}
+.section3Elemnt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section3ElemntCard{
+    border: #8d48f1 solid 0px;
+    border-radius: 20%;
+margin: 1vw;
+background-color: #F9F1FE;
+    font-size: 12px;
+    color: #6B568A;
+
+}
+.section3ElemntCard p{
+color: #9E94AE;
+
+}
+/* .section3ElemntCard p :hover{
+    color: #9E94AE;
+    
+    } */
+.section3ElemntCard :hover{
+    box-shadow: 0px 4px 0px #EAE1FC;
+background-color: white;
+    color: #8d48f1;
+    transform:scale(1.06);
+
+}
