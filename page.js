@@ -8,7 +8,7 @@ function animateHeader() {
     span.style.left = '0';
     span.id= 'span';
     span.style.opacity = '1';
-    span.style.color = 'yellow';
+    span.style.color = '#FEC027';
     headerText.appendChild(span);
 
     setTimeout(() => {

@@ -3,19 +3,51 @@ body{
 }
 
 header {
-  /* position: relative; */
+  position: relative;
 
   background-color: #8d48f1;
 
   display: flex;
   justify-content: space-between;
 }
+header div {
+    margin: 5vw;
+
+}
+.imgHeader{
+    width: 48vw;
+
+}
+.prgraphHeader{
+    color: #ffff;
+}
 #header-text {
-  font-size: 30px;
+  font-size: 42px;
   color: white;
+  font-weight: bold;
 }
 #span {
   font-size: 33px;
+}
+.btnHeader{
+    display: flex;
+    gap:1vw;
+    margin-top: 10vh;
+}
+.ExploreBtn{
+    background-image: linear-gradient(to right, #FFD66E,#FFB70B, #FFB70B);
+    border-radius:10px;
+    height: 6vh;
+    width: 13vw;
+    color: #7C5904;
+    font-weight: bold;
+
+}
+.WatchBtn {
+    background-color: #8d48f1;
+    color: white;
+font-size: 11px;
+
 }
 /* slider */
 
@@ -107,5 +139,32 @@ color: #9E94AE;
 background-color: white;
     color: #8d48f1;
     transform:scale(1.06);
+}
+/* section 4 */
+.section4{
+    background-color: white;
+}
+.BoxSection4{
+    background-color: #8d48f1;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-radius: 20px;
+}
+.BoxSection4 h2{
+    color: white;
+}
+.BoxSection4 button{
+    background-image: linear-gradient(to right, #FFD66E,#FFB70B, #FFB70B);
+    border-radius: 10px;
+    color: #7C5904;
 
+}
+.BoxSection4 p {
+    color: white;
+    font-size: 15px;
+
+}
+.Eatly{
+    color: #FFB70B;
 }
