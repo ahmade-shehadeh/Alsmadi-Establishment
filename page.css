@@ -66,6 +66,10 @@ header div {
   background-color: #8d48f1;
   border-radius: 20px;
   width: 100%;
+  justify-content: space-between;
+}
+section{
+  padding: 50px;
 }
 
 .slider-card {
@@ -83,7 +87,7 @@ header div {
   font-size: 15px;
   font-weight: 500;
 }
-.slider-card:hover {
+.slider-card-hover {
   transform: scale(1.06);
   background-color: yellow;
   color: black;
@@ -159,10 +163,7 @@ header div {
 .Eatly {
   color: #ffb70b;
 }
-/* section 5 */
-.section5 {
-  margin: 7vw;
-}
+
 .hederSection5 {
   display: flex;
 }
@@ -185,14 +186,19 @@ header div {
 }
 .scroll ul {
   list-style-type: none;
+  max-height: 300px;
+  overflow-y: scroll;
 }
 .scroll li {
   margin-top: 5vh;
   background-color: #f9f1fe;
   color: #8472a1;
   font-weight: bold;
+  display: flex;
+    align-items: center;
+    gap: 15px;
 }
-.scroll li :hover {
+.hover :hover {
   color: #8d48f1;
   background-color: #ffff;
   cursor: pointer;
