@@ -9,15 +9,17 @@ header {
   background-color: #8d48f1;
 
   display: flex;
+
   justify-content: space-between;
 }
 header div {
   margin: 5vw;
 }
 
+
 .imgHeader {
   width: 50vw;
-  height: 80vh;
+  height: 100vh;
 }
 .prgraphHeader {
   color: #ffff;
@@ -33,7 +35,8 @@ header div {
 .btnHeader {
   display: flex;
   gap: 1vw;
-  /* padding-top: 5vh; */
+  padding-top: 5vh;
+    align-items: center;
 }
 .ExploreBtn {
   background-image: linear-gradient(to right, #ffd66e, #ffb70b, #ffb70b);
@@ -180,6 +183,8 @@ section {
   color: #6b568a;
   font-weight: bold;
   margin-left: 2vw;
+  margin-block-start: 0;
+    margin-block-end: 0;
 }
 .hederSection5 img {
   width: 6vw;
@@ -197,6 +202,11 @@ section {
   list-style-type: none;
   max-height: 300px;
   overflow-y: scroll;
+  padding-inline-start: 0px;
+  margin-block-start: 0;
+    margin-block-end: 0;
+    margin-right: -13%;
+
 }
 .scroll ul::-webkit-scrollbar {
   width: 5px;
@@ -320,9 +330,7 @@ section {
 .section5{
   position: relative;
 }
-/* .section5-img :hover {
-background-color: #F9F1FE;
-} */
+
 .section5-img button:hover {
   border-radius: 8px;
   justify-content: center;
@@ -371,7 +379,9 @@ padding-inline-start: 0px;
 padding-top: 10px;
 gap: 10px;
 }
-@media (max-width: 800px) {
+
+
+@media (max-width: 580px) {
   .slider-container,
   .section3 {
     flex-direction: column;
@@ -382,24 +392,22 @@ gap: 10px;
     height: 120px;
   }
   .slider-container{
-    width: 60%;
-    margin-left: 15%;
+    width: 100%;
+    margin-left: 3%;
 
   }
   .slider-card{
     flex: 0 0 125px;
     height: 125px;
-    padding-top: 0;
-
-    
+    padding-top: 15px;  
   }
   .image-section3 {
     width: 100%;
   }
   header{
 flex-direction: column;
-width:56%;
-margin-left: 16vw
+width: 86%;
+margin-left: 9vw;
   }
 #header-text{
   font-size: 22px;
@@ -417,7 +425,7 @@ margin-left: 16vw
   padding:0;
 }
 .titleSection3 p{
-  font-size: 15px;
+  font-size: 16px;
 }
 .titleSection3{
   align-items:center;
@@ -429,8 +437,9 @@ margin-left: 16vw
   padding-right: 1vw;
 }
 .titleSection3Par{
-  font-size: 14px;
-  margin-left: 2%;
+  font-size: 17px;
+  margin-left: 12%;
+  margin-top: 0;
 }
 .BoxSection4 {
 padding-top: 2vh;
@@ -443,8 +452,9 @@ padding-bottom: 2vh;
     font-size: 10px;
     }
     .section4{
-      width: 55%;
-    margin-left: 18%;
+      width: 81%;
+    margin-left: 10%;
+    margin-top: 10%;
     padding: 0;
     }
 #header-text span {
@@ -463,10 +473,7 @@ header div {
   .WatchBtn img {
     height: 4vh;
   }
-  .imgHeader {
-    width: 50vw;
-    height: 30vh;
-}
+
 .slider-heder p {
   font-size: 18px;
 
@@ -481,4 +488,117 @@ margin-bottom: 50px;
 .slider-card {
   font-size: 15px;
 }
+.FooterSection5{
+  flex-direction:column;
+  gap: 20px;
 }
+.arrow-section {
+  width: 87px;
+  position: absolute;
+  right: -17px;
+  top: 190px;
+}
+.section6 {
+  flex-direction: column;
+  padding: 0;
+
+}
+.section6 img{
+margin-left:4% ;
+}
+footer {
+  flex-direction: column;
+}
+.RightSetion6Header img {
+  width: 12vw;
+  height: 7vh;
+}
+.footer_Right_side {
+  flex-direction: column;
+  gap: 24px
+}
+.scroll {
+  margin-top: 35px;
+}
+}
+@media (max-width: 821px) {
+  .imgHeader {
+    width: 50vw;
+    height: 52vh
+  }
+  .footer_Right_side {
+    gap: 20px
+  }
+ 
+}
+@media (max-width: 800px) {
+  .scroll {
+    margin-top: 35px;
+  }
+  .imgHeader {
+    width: 50vw;
+    height: 52vh;
+}
+  .section4{
+    width: 81%;
+  margin-left: 10%;
+  margin-top: 10%;
+  padding: 0;
+  }
+  .FooterSection5{
+    flex-direction:column;
+    gap: 20px;
+  }
+  .arrow-section {
+    width: 87px;
+    position: absolute;
+    right: -17px;
+    top: 190px;
+  }
+}
+@media (max-width: 380px) {
+  .imgHeader {
+    width: 79vw;
+    height: 37vh;
+}}
+@media (max-width: 580px) {
+  .imgHeader {
+    width: 80vw;
+    height:43vh;
+}}
+@media (max-width: 800px) {
+  footer {
+    flex-direction: column;
+  }
+  .RightSetion6Header img {
+    width: 12vw;
+    height: 7vh;
+  }
+  .footer_Right_side {
+    flex-direction: column;
+    gap: 24px
+  }
+  }
+
+  @media (max-width: 900px) {
+    .slider-container {
+      flex-direction: column;
+    }
+    .slider-card-hover {
+      transform: scale(1.001);
+      flex: 0 0 120px;
+      height: 120px;
+    }
+    .slider-container{
+      width: 100%;
+      margin-left: 3%;
+  
+    }
+    .slider-card{
+      flex: 0 0 125px;
+      height: 125px;
+      padding-top: 15px;
+  
+      
+    }
+  }
